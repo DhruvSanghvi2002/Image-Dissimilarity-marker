@@ -1,0 +1,12 @@
+# This is the simple implementation of opencv library to find the dissimilarites between the images , the steps involved are as follows
+## Finding the Dissimalrities
+1-> First we need to load our image this is done using cv2.imread() function.
+2-> In most of the cv2 applications we need to convert our image  to grayscale thus we have converted the image into grayscale.
+3-> After these two steps , we have founded the absolute differences between the images, this is done for checking pixel level difference between the images, we would require to do it to detect dissimilarites between the images.
+## Calculating the bounding box
+1->We have applied thresholding logic to threshold the image(difference image)
+2-> We have used dilations to smoothen our differences.
+3->Now we will draw  contours around our dilations.
+4-> After that we will filter out contours with area greater than 100.
+5-> We will draw the bounding boxes around it.
+6-> We will calculate the similarity score by  1-dissimilar_points/total_points(pixels)

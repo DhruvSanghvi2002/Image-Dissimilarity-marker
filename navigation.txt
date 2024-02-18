@@ -1,0 +1,7 @@
+# This is the navigation file for our project
+1-images folder all the test images.
+2-output contains the result i  have achieved.
+3-their is an explaination video also.
+4-dissimilarity.py is the file which contains the logic and you need to run that file.
+5-explaination.txt for explaination
+6-also contains a doc for more explaination
